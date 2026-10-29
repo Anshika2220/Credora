@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Frontend build
+client/dist/
+
+# Python artifacts
+.pytest_cache/
